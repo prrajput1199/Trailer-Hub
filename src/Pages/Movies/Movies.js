@@ -18,13 +18,12 @@ const Movies = () => {
   const genreforURL = UseGenre(selectedGenre);
 
   const fetchMovies = async () => {
-    const { data } = await axios.get(
-      // `https://api.themoviedb.org/3/discover/movie?api_key=1963d424aa84ec781e1bb725fd81a30e&page=${pageNo}&with_genres=${genreforURL}`
+    const response = await fetch(
       `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&page=${pageNo}&with_genres=${genreforURL}`
     );
-
+    
+    const data = await response.json();
     setMoviesData(data.results);
-    // setNumberOfPages(data.total_pages);
     setNumberOfPages(500);
     console.log(data.results);
   };
