@@ -1,3 +1,30 @@
+# Movie App
+
+Welcome to my Movie App project! This application allows you to discover and explore movies with ease. Whether you're a film buff or just looking for something to watch, this app has you covered.
+
+## Tech Stack
+
+This project was built using the following technologies:
+
+- ReactJS
+- Material UI
+- React Router DOM
+- React YouTube
+- TMDB API
+- Axios
+- React Alice Carousel
+
+
+## Getting Started
+
+To get started with this project on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-app.git
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
