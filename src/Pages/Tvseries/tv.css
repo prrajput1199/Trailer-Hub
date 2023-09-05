@@ -1,0 +1,14 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.tv{
+    /* background-color: black; */
+    background-color: #00000059;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,13 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.trending{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    width: 100%;
+    height: auto;
+}
+

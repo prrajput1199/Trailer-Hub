@@ -1,0 +1,17 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.movies{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    width: 100%;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

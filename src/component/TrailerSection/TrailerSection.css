@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainTrailerSection{
+    position: relative;
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-left: -13vw;
+    margin-top: -2.1vh;
+}
+
+.trailersection{
+    font-size: 1.5rem;
+}
+
+.playbtn{
+    background-color: black;
+    border-radius: 10px;
+    width: 14vw;
+    height: 7vh;
+    color: white;
+    border: 2px solid white;
+    z-index: 10;
+    margin-top: 40vh;
+    margin-left: 20vw;
+}
+
+.playbtn:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    color: white;
+}
+
+  
+.playbtn2{
+    background-color: black;
+    border-radius: 10px;
+    width: 14vw;
+    height: 7vh;
+    color: white;
+    border: 2px solid white;
+    z-index: 10;
+    margin:20px 0px;
+}
+
+.playbtn2:hover{
+    cursor: pointer;
+    background-color: rgb(247, 14, 14);
+    color: white;
+}
+
+.titlebtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  
+.YouTube{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.overview{
+    background-color: rgb(33, 32, 32);
+    color: white;
+    margin: 20px 0;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #292727;
+}
