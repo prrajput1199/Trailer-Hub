@@ -12,7 +12,6 @@ const Trending = () => {
   const apiKey  = process.env.REACT_APP_API_KEY;
   const [TrendingData, setTrendingData] = useState([]);
   const [pageNo, setPageNo] = useState(1);
-  // const [selectedMovie,setSelectedMovie]=useState({});
   const imagePath = "https://image.tmdb.org/t/p/original";
 
 

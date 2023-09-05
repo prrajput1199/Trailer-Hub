@@ -24,7 +24,8 @@ const Movies = () => {
     );
 
     setMoviesData(data.results);
-    setNumberOfPages(data.total_pages);
+    // setNumberOfPages(data.total_pages);
+    setNumberOfPages(500);
     console.log(data.results);
   };
 

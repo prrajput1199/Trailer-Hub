@@ -23,7 +23,7 @@ const Tvseries = () => {
     );
 
     setMoviesData(data.results);
-    setNumberOfPages(data.total_pages);
+    setNumberOfPages(500);
   };
 
   useEffect(() => {
