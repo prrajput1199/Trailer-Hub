@@ -4,7 +4,6 @@ Welcome to the Movie App project! This application is your one-stop destination 
 
 ## Table of Contents
 - [Tech Stack](#tech-stack)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -22,12 +21,6 @@ This project leverages the following technologies:
 - **TMDB API**: A powerful API providing access to a wealth of movie data, including details, images, and ratings.
 - **Axios**: Used for making HTTP requests, enabling communication with external APIs such as TMDB.
 - **React Alice Carousel**: A versatile image carousel component for displaying movie posters and promotional material in an engaging manner.
-
-## Demo
-
-Curious about how our app works? Check out this short demo video:
-
-[![Demo Video](https://example.com/demo-thumbnail.png)](https://trailer-hub-nv66.vercel.app/Trending)
 
 ## Getting Started
 
