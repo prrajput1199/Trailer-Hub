@@ -23,6 +23,13 @@ To get started with this project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/yourusername/movie-app.git
 
+2.Install dependencies:
+  cd movie-app
+  npm install
+
+3.Start the development server:
+  npm start
+
 
 
 # Getting Started with Create React App
