@@ -25,7 +25,7 @@ To get started with this project on your local machine, follow these steps:
 
 2. Install dependencies:
   ```bash
-  cd movie-app
+  cd myapp
   npm install
 
 
