@@ -24,10 +24,12 @@ To get started with this project on your local machine, follow these steps:
    git clone https://github.com/yourusername/movie-app.git
 
 2.Install dependencies:
+  ```bash
   cd movie-app
   npm install
 
 3.Start the development server:
+  ```bash
   npm start
 
 
