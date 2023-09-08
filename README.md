@@ -40,3 +40,8 @@ To run this project locally, follow these steps:
    npm start
 
 4. Open your browser and navigate to http://localhost:3000 to experience the app.
+
+## Features
+
+1. Search for movies and tv shows.
+2. Watch movies and tv shows trailer
