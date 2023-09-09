@@ -6,9 +6,6 @@ Welcome to the Movie App project! This application is your one-stop destination 
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Tech Stack
 
