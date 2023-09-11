@@ -79,3 +79,10 @@
     border-radius: 10px;
     box-shadow: 5px 5px #292727;
 }
+
+@media screen and (max-width:550px) {
+    .mainTrailerSection{
+        margin-left: -8vw;
+        margin-top: -1vh;
+    }
+}

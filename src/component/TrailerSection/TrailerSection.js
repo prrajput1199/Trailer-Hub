@@ -68,7 +68,6 @@ const TrailerSection = () => {
         <div className="playbtn1">
         <button className="playbtn" onClick={()=>setPlayTrailer(true)}>Play Trailer</button>
         </div>
-        
       </div>
 
       <div className="trailersection">
