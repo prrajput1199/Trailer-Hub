@@ -75,7 +75,7 @@ export default function SimpleBottomNavigation() {
               backgroundColor: value === 3 ? "white" : "rgb(48, 44, 44)",
               color: value === 3 ? "black" : "white",
             }}
-            icon={<SavedSearchIcon />}
+            icon={<SavedSearchIcon/>}
           />
         </BottomNavigation>
       </Box>
