@@ -52,6 +52,7 @@
     .posters{
         border-radius: 10px;
         max-width: 100%;
+        height: 24vh;
         object-fit: contain;
     }
     .text{
