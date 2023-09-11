@@ -1,97 +1,44 @@
 # Movie App
 
-Welcome to my Movie App project! This application allows you to discover and explore movies with ease. Whether you're a film buff or just looking for something to watch, this app has you covered.
+Welcome to the Movie App project! This application is your one-stop destination for discovering and exploring movies. Whether you're a cinephile or just searching for something to watch, our app has you covered.
+
+## Table of Contents
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Features](#features)
 
 ## Tech Stack
 
-This project was built using the following technologies:
+This project leverages the following technologies:
 
-- ReactJS
-- Material UI
-- React Router DOM
-- React YouTube
-- TMDB API
-- Axios
-- React Alice Carousel
-
+- **ReactJS**: The foundation of our app, providing a dynamic and interactive user interface.
+- **Material UI**: A beautiful and responsive design framework for crafting visually appealing UI components.
+- **React Router DOM**: For managing client-side routing, ensuring seamless navigation throughout the app.
+- **React YouTube**: Integrated to showcase movie trailers, enhancing the user experience.
+- **TMDB API**: A powerful API providing access to a wealth of movie data, including details, images, and ratings.
+- **Axios**: Used for making HTTP requests, enabling communication with external APIs such as TMDB.
+- **React Alice Carousel**: A versatile image carousel component for displaying movie posters and promotional material in an engaging manner.
 
 ## Getting Started
 
-To get started with this project on your local machine, follow these steps:
+To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/movie-app.git
 
+2. Install dependencies:
+   ```bash
+   cd movie-app
+   npm install
 
+3. Start the development server:
+   ```bash
+   npm start
 
-# Getting Started with Create React App
+4. Open your browser and navigate to http://localhost:3000 to experience the app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Search for movies and tv shows.
+2. Watch movies and tv shows trailer
