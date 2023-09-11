@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <Header />
+      <Header/>
       <div className="App">
         <Container sx={{width:'100%',backgroundColor:'#00000059'}}>
           <Routes>

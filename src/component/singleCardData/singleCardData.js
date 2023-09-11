@@ -15,7 +15,7 @@ const SingleCardData = ({
   selectedContent,
   setSelectedContent,
 }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <>
       <div className="singleContent"
