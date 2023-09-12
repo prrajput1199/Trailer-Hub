@@ -7,10 +7,10 @@
     position: relative;
     height: 500px;
     width: 100vw;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     color: white;
-    margin-left: -13vw;
+    margin-left: -4.8vw;
     margin-top: -2.1vh;
 }
 
@@ -26,7 +26,7 @@
     color: white;
     border: 2px solid white;
     z-index: 10;
-    margin-top: 40vh;
+    margin-top: 30vh;
     margin-left: 20vw;
 }
 

@@ -10,13 +10,8 @@
     font-size: 2vw;
     padding-bottom: 15px;
     box-shadow: 0px 1px 5px black;
-    color: rgb(222, 209, 209);
+    color: rgb(10, 244, 189);
     z-index: 100;
-}
-
-.header:hover{
-    background-color: white;
-    color: black;
 }
 
 @media screen and (max-width:700px) {
@@ -24,5 +19,4 @@
         padding-top: 15px;
         font-size: 4.4vw;
     }
-
 }
