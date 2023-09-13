@@ -10,7 +10,7 @@
     background-position: top;
     background-size: cover;
     color: white;
-    margin-left: -4.8vw;
+    margin-left: -13vw;
     margin-top: -2.1vh;
 }
 
@@ -82,7 +82,7 @@
 
 @media screen and (max-width:550px) {
     .mainTrailerSection{
-        margin-left: -4vw;
-        margin-top: -1vh;
+         margin-top: -1vh;
+        margin-left: -4.8vw;
     }
 }

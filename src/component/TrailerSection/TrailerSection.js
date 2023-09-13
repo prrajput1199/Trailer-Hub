@@ -54,6 +54,7 @@ const TrailerSection = () => {
   useEffect(() => {
     fetchData();
     fetchVideo();
+    
   }, []);
 
   return (
