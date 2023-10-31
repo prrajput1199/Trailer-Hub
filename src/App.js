@@ -12,7 +12,7 @@ import TrailerSection from "./component/TrailerSection/TrailerSection.js";
 import TrailerSectionMovies from "./Pages/TrailerSectionMTV/TrailerSectionMovies.js";
 import TrailerSectionTV from "./Pages/TrailerSectionMTV/TrailerSectionTV.js";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 const App = () => {
   const api_key = process.env.REACT_APP_API_KEY;

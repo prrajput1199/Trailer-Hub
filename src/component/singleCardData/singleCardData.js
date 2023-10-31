@@ -2,9 +2,9 @@ import React from "react";
 import { img_300, unavailable } from "../../config/config";
 import "./singleCardData.css";
 import { Badge } from "@mui/material";
-import Modalcontent from "../modal/modal";
-import {Link} from "react-router-dom"
-import { useNavigate } from "react-router-dom";
+// import Modalcontent from "../modal/modal";
+// import {Link} from "react-router-dom"
+// import { useNavigate } from "react-router-dom";
 const SingleCardData = ({
   poster,
   title,

@@ -20,7 +20,7 @@ const Trending = () => {
     const response= await fetch(
       `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${pageNo}`
     );
-    const data=await response.json();
+    const data = await response.json();
     setTrendingData(data.results);
   };
 
@@ -46,7 +46,6 @@ const Trending = () => {
                   className="link"
                 >
                   <SingleCardData
-                    data-aos="flip-left"
                     key={element.id}
                     poster={element.poster_path}
                     title={element.original_title || element.original_name}
