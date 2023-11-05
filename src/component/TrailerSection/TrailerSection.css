@@ -19,39 +19,42 @@
 }
 
 .playbtn{
-    background-color: black;
-    border-radius: 10px;
-    width: 14vw;
-    height: 7vh;
-    color: white;
-    border: 2px solid white;
+    background-color: #e63946;
+    padding: 10px 20px;
+    /* margin: 20px; */
+    border-radius: 5px;
+    width: 120px;
+    /* height: 7vh; */
+    color: aqua;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 #d90429;
     z-index: 10;
-    margin-top: 30vh;
-    margin-left: 20vw;
+    margin-top: 50vh;
+    margin-left: 10vw;
+    transition: transform 0.2s , box-shadow 0.2s;
 }
 
-.playbtn:hover{
-    cursor: pointer;
-    background-color: darkgreen;
-    color: white;
+.playbtn:active{
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 #d90429;
 }
-
   
 .playbtn2{
-    background-color: black;
-    border-radius: 10px;
+    background-color: #e63946;
+    padding: 5px 5px;
     width: 14vw;
     height: 7vh;
-    color: white;
-    border: 2px solid white;
+    border-radius: 5px;
+    color: aqua;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 #d90429;
     z-index: 10;
-    margin:20px 0px;
+    transition: transform 0.2s , box-shadow 0.2s;
 }
 
-.playbtn2:hover{
-    cursor: pointer;
-    background-color: rgb(247, 14, 14);
-    color: white;
+.playbtn2:active{
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 #d90429;
 }
 
 .titlebtn{
@@ -59,8 +62,6 @@
     justify-content: space-between;
 }
 
-
-  
 .YouTube{
     position: absolute;
     width: 100%;
