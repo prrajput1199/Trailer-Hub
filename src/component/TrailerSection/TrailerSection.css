@@ -53,7 +53,7 @@
 }
 
 .playbtn2:active{
-    transform: translateX(4px) translateY(4px);
+    transform: translateX(2px) translateY(2px);
     box-shadow: 0 0 0 #d90429;
 }
 
