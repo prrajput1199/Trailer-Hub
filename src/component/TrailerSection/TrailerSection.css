@@ -37,6 +37,7 @@
 .playbtn:active{
     transform: translateX(4px) translateY(4px);
     box-shadow: 0 0 0 #d90429;
+    cursor: pointer;
 }
   
 .playbtn2{
@@ -55,6 +56,7 @@
 .playbtn2:active{
     transform: translateX(2px) translateY(2px);
     box-shadow: 0 0 0 #d90429;
+    cursor: pointer;
 }
 
 .titlebtn{

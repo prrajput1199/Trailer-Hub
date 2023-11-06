@@ -9,7 +9,6 @@
     flex-direction: column;
     width: 200px;
     height:auto;
-   
     position: relative;
     border-radius: 10px;
     background-color: #00000059;
@@ -23,8 +22,6 @@
 .singleContent:hover{
     background-color: white;
     color: black;
-    width: 220px;
-    height: auto;
 }
 
 .posters{
