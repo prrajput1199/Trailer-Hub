@@ -22,12 +22,12 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <div className="App">
-          <Container sx={{ width: "100%", backgroundColor: "#00000059" }}>
+          {/* <Container sx={{ width: "100%", backgroundColor: "#00000059" }}> */}
             <Routes>
               <Route exact path="/Trending" element={<Trending />} />
               <Route
                 path="/Trending/:media_type/:id"
-                element={<TrailerSection />}
+                element={<TrailerSection/>}
               />
               <Route path="/Movies" element={<Movies />} />
               <Route path="/Movies/:id" element={<TrailerSectionMovies />} />
@@ -39,7 +39,7 @@ const App = () => {
                 element={<TrailerSection />}
               />
             </Routes>
-          </Container>
+          {/* </Container> */}
         </div>
         <div className="simplebottomnavigation">
           <SimpleBottomNavigation />

@@ -3,18 +3,17 @@
 }
 
 .trending{
-
     background-color: #00000059;
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
-    width: 100%;
     height: auto;
     text-decoration: none;
     border-radius: 15px;
 }
 
 .link{
+    margin-left: 30px;
     text-decoration: none;
     color: white;
 }

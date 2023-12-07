@@ -7,9 +7,9 @@
 
 
 .trendingCarousel img{
-    width: 90%;
-    height: 70vh;
-    
+    width: 80%;
+    height: 65vh;
+    margin-left: 90px;
     padding: 10px 10px;
     border-radius: 20px;
     margin-bottom: 5px;

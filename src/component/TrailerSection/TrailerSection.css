@@ -6,12 +6,12 @@
 .mainTrailerSection{
     position: relative;
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-position: top;
     background-size: cover;
     color: white;
-    margin-left: -13vw;
-    margin-top: -2.1vh;
+    /* margin-left: -13vw;
+    margin-top: -2.1vh; */
 }
 
 .trailersection{
@@ -83,9 +83,9 @@
     box-shadow: 5px 5px #292727;
 }
 
-@media screen and (max-width:550px) {
+/* @media screen and (max-width:550px) {
     .mainTrailerSection{
          margin-top: -1vh;
         margin-left: -4.8vw;
     }
-}
+} */
