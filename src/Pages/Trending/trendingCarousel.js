@@ -51,6 +51,9 @@ const TrendingCarousel = () => {
       disableButtonsControls
       items={items}
       autoPlay
+      autoPlayInterval={2000}
+      animationDuration={700}
+      
     />
   );
 };

@@ -48,6 +48,8 @@ const TvseriesCarousel = () => {
       disableButtonsControls
       items={Items}
       autoPlay
+      autoPlayInterval={2000}
+      animationDuration={700}
     />
   );
 };
