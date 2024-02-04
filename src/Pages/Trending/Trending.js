@@ -7,23 +7,19 @@ import { Container } from "@mui/material";
 import { Link } from "react-router-dom";
 import TrendingCarousel from "./trendingCarousel";
 
-
 const Trending = () => {
-  const apiKey  = process.env.REACT_APP_API_KEY;
+  const apiKey = process.env.REACT_APP_API_KEY;
   const [TrendingData, setTrendingData] = useState([]);
   const [pageNo, setPageNo] = useState(1);
   const imagePath = "https://image.tmdb.org/t/p/original";
 
-
-
   const fetchTrendingData = async () => {
-    const response= await fetch(
+    const response = await fetch(
       `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${pageNo}`
     );
     const data = await response.json();
     setTrendingData(data.results);
   };
-
 
   useEffect(() => {
     fetchTrendingData();
@@ -35,7 +31,6 @@ const Trending = () => {
         <TrendingCarousel />
       </div>
 
-      {/* <span className="pageName">Trending</span> */}
       <div className="trending">
         {TrendingData &&
           TrendingData.map((element) => {

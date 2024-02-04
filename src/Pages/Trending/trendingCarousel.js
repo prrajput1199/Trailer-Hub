@@ -53,7 +53,7 @@ const TrendingCarousel = () => {
       autoPlay
       autoPlayInterval={2000}
       animationDuration={700}
-      
+      fullwidth
     />
   );
 };
